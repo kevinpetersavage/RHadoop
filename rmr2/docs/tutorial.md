@@ -5,7 +5,6 @@
 
 
 
-
 # Mapreduce in R
 
 ## My first mapreduce job
@@ -15,7 +14,7 @@
 
 ```r
   small.ints = 1:1000
-  sapply(small.ints, function(x) x^2)
+  lapply(small.ints, function(x) x^2)
 ```
 
 
